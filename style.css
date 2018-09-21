@@ -1,0 +1,172 @@
+* {
+	margin: 0 auto;
+	padding: 0; 
+}
+
+body {
+	font-family: 'Hind Guntur', sans-serif;
+	background-color: #FFFFFF;
+}
+
+header {
+	background-color: #FFFFFF;
+	min-height: 55px;
+}
+
+header nav {
+	text-align: center;
+	float: none;
+}
+
+header nav ul {
+	list-style: none;
+	margin-top: 3%;
+}
+
+header nav ul li {
+	display: inline;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+header nav ul li a {
+	color: rgb(76,74,74, 0.7);
+	text-decoration: none;
+	color: #1f1f14;
+	font-size: 1.5em;
+	font-weight: 500;
+}
+
+header nav ul li a:hover {
+	color: rgb(76,74,74);
+}
+
+.banner img {
+	width: 40%;
+	height: 30%;
+}
+
+h1 {
+	font-size: 1.3em;
+	font-weight: 500
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: 300
+}
+
+iframe {
+	margin-bottom: 3%;
+}
+
+footer {
+	text-align: center;
+	margin-bottom: 2%;
+	font-size: 1em;
+}
+
+footer .social-icons a {
+	font-size: 1.5em;
+	color: rgb(76,74,74,0.7);
+	float: center;
+	padding: 2px;
+}
+
+footer .social-icons a:last-child {
+	margin-right: 0;
+}
+
+footer .social-icons a:hover {
+	color: rgb(76,74,74);
+}
+
+.images:hover {
+	opacity: 0.75;
+	transition: ease-in-out 0.1s;
+	color: lightgrey; 
+}
+
+
+element.style {
+}
+
+.grid-link:hover {
+    background-color: #444b51;
+    color: #ffffff;
+    text-decoration: none;
+}
+.columns-1 .grid-link {
+    width: 100%;
+    height: 90%;
+}
+
+.grid-link {
+    width: 15%;
+    height: 90%;
+    display: block;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    text-align: center;
+    line-height: 30px;
+    box-shadow: 0px 1px 1px rgba(255,255,255,0.35) inset, 0px 1px 1px rgba(0,0,0,0.3);
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border: 0.50px solid #444b51;
+    border-radius: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    color: #444b51;
+    font-weight: 600;
+    font-family: arial,sans-serif;
+    font-size: 16px;
+}
+
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+form * {
+	border-radius: 10px;
+	padding: 3px;
+}
+
+.dados {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.contactos {
+	font-size: 15px;
+}
+
+.destaque {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.destaque-email {
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.mail {
+
+}
+
+
+

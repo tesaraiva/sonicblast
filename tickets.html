@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title> SonicBlast </title>
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" crossorigin="anonymous">
-		<link href="https://fonts.googleapis.com/css?family=Hind+Guntur:400,500,600" rel="stylesheet">
+			<link rel="stylesheet" href="css/style.css">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" crossorigin="anonymous">
+			<link href="https://fonts.googleapis.com/css?family=Hind+Guntur:400,500,600" rel="stylesheet">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -18,10 +18,10 @@
 		<h2> &dot; SonicBlast &dot; Festival &dot; </h2>
 		<ul>
 				<li><a href="index.html"> <i class="fas fa-home"></i>
-				<li><a href="aboutus.html"> About us </a> &nbsp; &nbsp; </li>
-				<li><a href="bands.html"> Bands </a> &nbsp; &nbsp; </li>
-				<li><a href="tickets.html"> Tickets </a> &nbsp; &nbsp; </li>
-				<li><a href="contacts.html"> Contacts </a> &nbsp; </li>	
+				<li><a href="aboutus.html"> ABOUT US </a> &nbsp; &nbsp; </li>
+				<li><a href="bands.html"> BANDS </a> &nbsp; &nbsp; </li>
+				<li><a href="tickets.html"> TICKETS </a> &nbsp; &nbsp; </li>
+				<li><a href="contacts.html"> CONTACTS </a> &nbsp; </li>	
 
 		<center><body bgcolor="#FFF" text="BLACK">
 					<div align="center">
@@ -29,7 +29,7 @@
 			</div>
 				<tr>
 					<td>
-						<form method="post" action="confirmainscricao.html">
+						<form method="post" action="confirm.html">
 							<br>
 							<br> Email <input type="text" size="40" id="mail">
 							<br>
@@ -78,14 +78,22 @@
 						<br> Notes <br>
 							<textarea rows="5" cols="50" id="notas"></textarea>
 							<hr>
-						<input type="submit" name="submeter">
-						<input type="reset" name="limpar">
+
+		<label id="conditions">
+		<input type="checkbox" value="terms">
+		I agree to the <a href="=/terms"> terms and conditions. 
+		</a></label>
+		<br>
+		<br>
+		<button class="submits"> Submit </button>
+		<button onClick = "document.getElementById('myInput').value = ''"> Cancel </button> 
 						</form>
 					</td>
 				</tr>
 		</ul>
 	</nav>
 
+	
 
 			<br>
 		</body>
@@ -100,6 +108,9 @@
 		<a href="https://www.instagram.com/sonicblast_moledo/?hl=pt"> <i class="fab fa-instagram"></i></a>
 		<a href="mailto:sonicblastmoledo@hotmail.com"> <i class="fas fa-envelope"></i></a>
 	</div>
+
+	
+
 <p class="copyright">
 			Copyright &copy; SonicBlast Festival 2018. <p>
 			All rights reserved. </p>
